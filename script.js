@@ -1,3 +1,4 @@
+import { Rectangle, Square } from './script.js';
 class Rectangle {
 	constructor(width,height) {
 		this._width=width;
@@ -32,3 +33,4 @@ console.log(square.width); // Output: 7
 console.log(square.height); // Output: 7
 console.log(square.getArea()); // Output: 49
 console.log(square.getPerimeter()); // Output: 28
+export { Rectangle, Square };
