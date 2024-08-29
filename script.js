@@ -18,11 +18,11 @@ class Rectangle {
 
 class Square extends Animal {
 	constructor(side){
-		super(side);
+		super(side,side);
 		
 	}
 	getPerimeter(){
-		return 4*side;
+		return 4*width;
 	}
 }
 const rectangle = new Rectangle(5, 10);
