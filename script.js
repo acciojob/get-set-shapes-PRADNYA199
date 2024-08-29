@@ -2,11 +2,17 @@
 class Rectangle {
 	constructor(width,height)
 	{
-		this.width=width;
-		this.height=height;
+		this._width=width;
+		this._height=height;
+	}
+	get height(){
+		return this._height;
+	}
+	get width(){
+		return this._width;
 	}
 	getArea(){
-		return width*height;
+		return this._width * this._height;
 	}
 }
 
