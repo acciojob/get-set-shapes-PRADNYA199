@@ -1,4 +1,4 @@
-import { Rectangle, Square } from './script.js';
+
 class Rectangle {
 	constructor(width,height) {
 		this._width=width;
